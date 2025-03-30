@@ -1,0 +1,31 @@
+Security
+
+  - A signout of a user by the administrator or the manager
+  - Analytics of Security
+   - consisting of 
+   ** current login count
+   ** total hours spent by a user on the software
+   ** monitoring user accross the software page by page
+   ** 
+
+
+
+
+
+   EXPENSES
+
+   - Pending Exepenses approval count
+   - Filtering expenses by user Filtering
+   
+
+
+
+   REDUNDANT 
+
+   - scan for redundant patient records;
+   - should be able to merge and replace all ids with the current id
+   - 
+
+
+
+   PHELOBOTOMY ANALYTICS

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{this.testname}}</title>
+    <link rel="stylesheet" href="http://localhost:5000/css/receipt.css" />
+</head>
+<body class="result-body">
+    <h2 style="margin-left: 20%;margin-right: 20%; border-bottom: 1px solid black; text-transform: uppercase;text-align: center;">
+        {{this.companyinfo.name}}
+      </h2>
+     <div style="margin-bottom: 20px;"> 
+      <div style="width: 50%;">
+        <img height="150px" width="150px" src="http://localhost:5000/api/v1/settings/companyprofile/images"/>
+      </div>
+      <div style="width: 30%; margin-left: 70%;margin-top: -180px;">
+          <p id="capiFirst">{{this.companyinfo.address}}</p>
+          <p id="capiFirst">{{this.companyinfo.email}}</p>
+          <p id="capiFirst">{{this.companyinfo.website}}</p>
+          <p id="capiFirst">0{{this.companyinfo.phonenumber}} || 0{{this.companyinfo.alternativenumber}}</p>
+      </div>
+     </div>
+     <h3 style="text-align: center; text-transform: uppercase; background-color: black;color: white;">Personal Information</h3>
+  <div class="grid-2">
+    <div class="p-wrapper">
+      <span class="bold text-capitalize">fullname:</span>
+      <span class="text-capitalize">{{this.sampling.clientname}}</span>
+    </div>
+    <div class="p-wrapper">
+      <span class="bold text-capitalize">age:</span>
+      <span class="text-capitalize">{{this.sampling.age}}</span>
+    </div>
+    <div class="p-wrapper">
+      <span class="bold text-capitalize">gender:</span>
+      <span class="text-capitalize">{{this.sampling.gender}}</spa>
+    </div>
+    <div class="p-wrapper">
+      <span class="bold text-capitalize">mobile:</span>
+      <span class="text-capitalize">{{this.sampling.mobilenumber}}</span>
+    </div>
+    <!-- patientid -->
+    <div class="p-wrapper">
+      <span class="bold text-capitalize">patientid:</span>
+      <span class="text-capitalize">{{this.sampling.patientid}}</span>
+    </div>
+    <div class="p-wrapper">
+        <span class="bold text-capitalize">bilingid:</span>
+        <span class="text-capitalize">{{this.sampling.billingid}}</span>
+      </div>
+  </div>
+  <div class="testname">
+    <span> {{this.testname}} report</span>
+</div>
+<div>
+    {{{this.content}}}
+</div>
+<div>
+    <div class="p-wrapper">
+        <span class="bold text-capitalize" style="margin-bottom: 20px !important; text-decoration: underline;">Sonographer</span>
+        <br/>
+        <span class="text-capitalize" >{{this.sonographer}}</span>
+      </div>
+      <div class="p-wrapper">
+          <span class="bold text-capitalize" style="margin-bottom: 20px !important; text-decoration: underline;" >Approved by</span>
+          <br/>
+          <span class="text-capitalize">{{this.sonographer}}</span>
+    </div>
+</div>
+<div>
+<div class="p-wrapper">
+    <span class="bold text-capitalize"></span>
+    <br/>
+    <span class="text-capitalize">.................................................</span>
+    </div>
+    <div class="p-wrapper">
+        <span class="bold text-capitalize"></span>
+        <br/>
+        <span class="text-capitalize">................................................</span>
+</div>
+</div>
+<div style="color: blue; margin-left: 20%; position: absolute;top:99%; margin-top: 20px;">
+    Powered by Prime Laboratory System(PLS) version 0.0.1Baraka.Copyright @2024
+</div>
+</body>
+</html>

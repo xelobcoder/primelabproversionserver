@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Template</title>
+  <style>
+    /* Basic styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+
+    .card-header {
+      background-color:slateblue;
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      color: white;
+    }
+
+    .card-body {
+      padding: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="card-header">
+        <h3>Kairos Health Diagnostics (Client Portal Temporary Logins)</h3>
+      </div>
+      <div class="card-body">
+        <div>
+          <p>These logins are temporary. <strong>Please, we advise you to update your credentials once you log in.</strong></p>
+          <h4>Username: <%- data.email -%></h4>
+          <h4>Password: <%- data.identifier -%></h4>
+          <p>Visit this link to access the patient portal:</p>
+          <a class="btn" href="http://www.website.com/patientportal/388383">
+            Click here to visit the login page
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

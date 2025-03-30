@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transaction Alert(Billing Receipt)</title>
+</head>
+
+<body style="margin: 0; padding: 0; font-family: Arial, sans-serif;">
+  <div style="margin: 0 auto; max-width: 100%; padding: 20px;">
+    <h3 style="text-align: center;">Billing Receipt</h3>
+    <p style="font-weight: bold;text-transform: capitalize;">Dear <%- data.personalInfo.fullname -%>,</p>
+    <p>Attach is a copy of your receipt of your recent transaction at <%- data.facillity -%>  on <%= data.personalInfo.date %></p>
+  </div>
+  <div style="margin: 0 auto; max-width: 100%; padding: 20px;">
+    <table style="width: 100%; border-collapse: collapse;">
+      <thead style="background-color: #f2f2f2;">
+        <tr>
+          <th style="border: 1px solid #dddddd; text-align: left; padding: 8px;">Test Name</th>
+          <th style="border: 1px solid #dddddd; text-align: left; padding: 8px;">Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% data.testdata.forEach((item, index) => { %>
+        <tr key="<%= index %>">
+          <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;"><%= item.name %></td>
+          <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;"><%= item.price %></td>
+        </tr>
+        <% }) %>
+      </tbody>
+    </table>
+    <p style="margin-top: 20px;" id="currency">All amounts are in Ghana cedis(GHC)</p>
+    <hr style="border: 1px solid #f2f2f2;">
+    <div style="margin-top: 20px;">
+      <p style="text-transform: capitalize; font-weight: 500;">Test Cost: <%= data.personalInfo.testcost %></p>
+      <p style="text-transform: capitalize; font-weight: 500;">Discount: <%= data.personalInfo.discount %></p>
+      <p style="text-transform: capitalize; font-weight: 500;">Tax: <%= data.personalInfo.taxValue %></p>
+      <p style="text-transform: capitalize; font-weight: 500;">Payable: <%= data.personalInfo.payable %></p>
+      <p style="text-transform: capitalize; font-weight: 500; background-color: blueviolet; color: #f8f8f8; padding: 5px;">Total: <%= data.personalInfo.total %></p>
+    </div>
+    <div style="margin-top: 20px; text-align: center;">
+      <a href="http://localhost:3000/patient/portal" style="display: inline-block; text-decoration: none; background-color: orange; color: #ffffff; border: 2px solid orange; padding: 10px 20px; font-weight: 600;border-radius: 5px; text-transform: capitalize;">Click to track result on our patient/client portal</a>
+    </div>
+  </div>
+  
+</body>
+</html>

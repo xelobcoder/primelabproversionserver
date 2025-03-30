@@ -1,0 +1,88 @@
+
+<style>
+
+ .container {
+      margin: 5% 6%;
+      padding: 10px;
+      width: 80%;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+
+    .card {
+      border: 1px solid lightgray;
+    }
+
+
+    .btn {
+      list-style: none;
+      text-decoration: none;
+      padding: 10px;
+      background-color: #0000ee;
+      color: white;
+      border-radius: 5px;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+
+    .card>.card-header {
+      border-bottom: 1px solid lightgray;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #0000ee;
+      color: white;
+      font-weight: 600;
+      text-transform: capitalize;
+    }
+
+    p::first-letter {
+      text-transform: uppercase;
+    }
+
+    .card>.card-body {
+      display: block;
+      background-color: #fbe9e7;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      padding-bottom: 30px;
+    }
+
+    .btn:is(:hover, :focus, :active) {
+      outline: 4px solid lightblue;
+      transition: 50ms all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    h4 {
+      text-transform: uppercase;
+    }
+
+
+</style>
+<body>
+  <div class="container">
+    <div class="card"  style="background-color: wheat;padding: 20px;" >
+      <div class="card-header bg-red">
+        <h1><%- data.labname -%> </h4>
+        <br/>
+        <h4>(<%- data.header -%>)</h4>
+      </div>
+      <div class="card-body">
+        <div class="red"> <%- data.message -%> </div>
+        <p>
+         <strong>Please visit our facillity so that fresh blood could be taken.</strong>
+         <br/>
+         <p style="margin-top: 60px;">
+          please visit our site to book appointment on when blood sample should be taken and read about possible reason for blood rejection
+         </p>
+         <div class="btn">
+         <a href="/api/activation" >
+          visit site
+          </a>
+         </div>
+        </p>
+      </div>
+    </div>
+  </div>
+</body>

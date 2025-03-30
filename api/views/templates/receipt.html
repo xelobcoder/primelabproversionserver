@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Receipt</title>
+  <Link rel="stylesheet" href="http://localhost:5000/css/receipt.css">
+</head>
+
+
+<body>
+  <h1 style="text-align: center;">Receipt</h1>
+  <hr />
+  <div>
+    <p class="p-wrapper bold" style="text-transform: capitalize;">Fullname: {{this.clientInformation.fullname}}</p>
+    <p class="p-wrapper">
+      <span class="bold">Age:</span>
+      <span>{{this.clientInformation.age}} {{this.clientInformation.agetype}}</span>
+    </p>
+    <p class="p-wrapper">
+      <span class="bold">Billing ID:</span>
+      <span> {{this.clientInformation.billingid}}</span>
+    </p>
+    <p class="p-wrapper">
+      <span class="bold">Date:</span>
+      <span> {{this.clientInformation.date}}</span>
+    </p>
+    <!-- <p class="p-wrapper">Paid Amount: {{this.clientInformation.paid_amount}}</p> -->
+    <!-- <p class="p-wrapper">Discount: {{this.clientInformation.discount}}</p> -->
+    <!-- <p class="p-wrapper">Payable: {{this.clientInformation.payable}}</p> -->
+    <p class="p-wrapper">
+      <span class="bold">Mobile:</span>
+      <span> {{this.clientInformation.mobile_number}}</span>
+    </p>
+    <!-- <p class="p-wrapper">Outstanding: {{this.clientInformation.outstanding}}</p> -->
+    <p class="p-wrapper">
+      <span class="bold">Gender:</span>
+      <span>{{this.clientInformation.gender}}</span>
+    </p>
+    <!-- <p class="p-wrapper">Email: {{this.clientInformation.email}}</p>
+    <p class="p-wrapper">Date of Birth: {{this.clientInformation.dob}}</p> -->
+  </div>
+  <hr />
+  <table >
+    <thead >
+      <tr>
+        <td class="th bold">Sr.No</td>
+        <td class="th bold">Test Name</td>
+        <td class="th bold">Test Price</td>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each this.testInformation}}
+      <tr>
+        <td>{{@index}}</td>
+        <td style="text-transform: capitalize;">{{this.name}}</td>
+        <td>{{this.price}}</td>
+      </tr>
+      {{/each}}
+    </tbody>
+    <!-- <tfoot >
+      <tr>
+        <td></td>
+        <td>total</td>
+        <td>{{this.clientInformation.testtotal}}</td>
+      </tr>
+    </tfoot> -->
+    <tfoot>
+      <tr>
+        <td></td>
+        <td style="font-size: large;text-transform: capitalize;">concession: {{this.clientInformation.discount}}</td>
+        <td style="font-size: large; text-transform: capitalize;">Taxes: {{this.clientInformation.taxValue}}</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td style="font-size: large;text-transform: capitalize;">total: {{this.clientInformation.total}}</td>
+        <td style="font-size: large;text-transform: capitalize;">payable: {{this.clientInformation.payable}}</td>
+   
+      </tr>
+      <!-- outstanding -->
+      <tr>
+        <td></td>
+        <td style="font-size: large; text-transform: capitalize;">Amount paid: {{this.clientInformation.paid_amount}}</td>
+        <td style="font-size: large; text-transform: capitalize;">Outstanding: {{this.clientInformation.outstanding}}</td>
+      </tr>
+    </tfoot>
+    <tfoot>
+      <tr>
+        <td></td>
+        <td>Test Total</td>
+        <td style="font-size: large;text-transform: capitalize;"> {{this.clientInformation.testcost}}</td>
+      </tr>
+    </tfoot>
+  </table>
+  <div class="p-wrapper bold" style="margin-top: 20px;">
+    Signature: ......................................................................................
+  </div>
+</body>
+
+</html>

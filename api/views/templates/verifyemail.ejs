@@ -1,0 +1,61 @@
+<%- include('header.ejs') -%>
+<style>
+  .container-fluid,
+  .container {
+    margin: 10px 10px;
+    padding: 10px;
+  }
+
+  .btn {
+    padding: 10px;
+    color: inherit;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+  }
+
+  .btn-primary {
+    background-color:#0d6efd;
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+        text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+
+  .btn-primary:hover {
+    border: 2px solid#0d6efd;
+     transition: 500ms all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+     outline: 2px solid rgb(0, 153, 255, 0.572);
+  }
+
+  .col {
+    background-color: wheat;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  a {
+    text-decoration: none !important;
+  }
+
+
+</style>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <p >
+          Thank you for patronizing us. Please kindly verify your email by clicking on the button below.
+          <br/>
+          Link expires in 30 mins.
+        </p>
+        <a href="http://localhost:5000/verifyemail?token=<%= token %>" class="btn btn-primary">
+          verify email
+        </a>
+      </div>
+    </div>
+  </div>
+
+</body>

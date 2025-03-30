@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prime system Laoratory receipt client</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/x.css">
+</head>
+<body>
+  <h1>Invoice</h1>
+    
+  <h2>Customer Information</h2>
+  <p>Full Name: <%= data.y[0].fullname %></p>
+  <p>Email: <%= data.y[0].email %></p>
+  <p>Mobile Number: <%= data.y[0].mobile_number %></p>
+  <!-- Add more customer information as needed -->
+
+  <h2>Items</h2>
+  <table class="table">
+      <thead  class="table-primary">
+          <tr>
+              <th>Test Name</th>
+              <th>Price</th>
+          </tr>
+      </thead>
+      <tbody>
+          <% data.x.forEach(item => { %>
+              <tr>
+                  <td><%= item.NAME %></td>
+                  <td>$<%= item.PRICE %></td>
+              </tr>
+          <% }); %>
+      </tbody>
+  </table>
+
+  <h2>Invoice Summary</h2>
+  <p>Total Test Cost: $<%= data.y[0].testcost %></p>
+  <p>Discount: $<%= data.y[0].discount %></p>
+  <p>Tax: $<%= data.y[0].taxValue %></p>
+  <p>Total Payable: $<%= data.y[0].total %></p>
+  <p>Paid Amount: $<%= data.y[0].paid_amount %></p>
+</body>
+</html>

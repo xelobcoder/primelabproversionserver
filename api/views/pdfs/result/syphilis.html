@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- bootstrap link -->
+  <!-- favicon -->
+  <link rel="stylesheet" href="http://localhost:5000/css/receipt.css" />
+  <!-- bootstap -->
+</head>
+
+<body>
+  <div class="grid-2">
+    <div class="p-wrapper">
+      <span class="bold text-capitalize">fullname:</span>
+      <span class="text-capitalize">{{this.sampling.clientname}}</span>
+    </div>
+    <div class="p-wrapper">
+      <span class="bold text-capitalize">age:</span>
+      <span class="text-capitalize">{{this.sampling.age}}</span>
+    </div>
+    <div class="p-wrapper">
+      <span class="bold text-capitalize">gender:</span>
+      <span class="text-capitalize">{{this.sampling.gender}}</spa>
+    </div>
+    <div class="p-wrapper">
+      <span class="bold text-capitalize">mobile:</span>
+      <span class="text-capitalize">{{this.sampling.mobilenumber}}</span>
+    </div>
+    <!-- patientid -->
+    <div class="p-wrapper">
+      <span class="bold text-capitalize">patientid:</span>
+      <span class="text-capitalize">{{this.sampling.patientid}}</span>
+    </div>
+    <!-- bilingid -->
+    <div class="p-wrapper">
+      <span class="bold text-capitalize">bilingid:</span>
+      <span class="text-capitalize">{{this.sampling.billingid}}</span>
+    </div>
+    <div class="p-wrapper">
+      <span class="bold text-capitalize">sampling date:</span>
+      <span class="text-capitalize">{{this.sampling.collection_date}}</span>
+    </div>
+    <div class="p-wrapper">
+      <span class="bold text-capitalize">Branch:</span>
+      <span class="text-capitalize">{{this.sampling.samplingCenter}}</span>
+    </div>
+  </div>
+  <div class="testname">
+   <span> {{this.testname}} report</span>
+  </div>
+  <table>
+    <thead class="thead">
+      <tr class="tr-header">
+        <td class="td-header">description</td>
+        <td class="td-header">value(s)</td>
+      </tr>
+    </thead>
+    <tbody class="tbody">
+      {{#each this.testInformation}}
+      <tr class="tr-body">
+        <td class="td-body text-capitalize">sample type</td>
+        <td class="td-body">{{this.sampletype}}</td>
+      </tr>
+      <tr class="tr-body">
+        <td class="td-body text-capitalize">reaction</td>
+        <td class="td-body">{{this.reaction}}</td>
+      </tr>
+      <tr class="tr-body">
+        <td class="td-body text-capitalize">result</td>
+        <td class="td-body">{{this.result}}</td>
+      </tr>
+      {{/each }}
+    </tbody>
+  </table>
+  <div class="comments">
+    <div class="comments-label">comments</div>
+    {{#each this.testInformation}}
+    <span>{{this.comments}}</span>
+    {{/each}}
+  </div>
+</body>

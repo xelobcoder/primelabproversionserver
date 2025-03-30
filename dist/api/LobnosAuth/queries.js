@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.SELECT_USERDATA_BY_EMPLOYEE_ID = exports.SELECT_USER_BY_EMPLOYEE_ID = exports.SELECT_ROLE_BY_EMPLOYEE_ID = exports.SELECT_BRANCH_NAME_BY_ID = exports.SELECT_USER_BY_EMAIL = exports.INSERT_USER = exports.SELECT_ROLE_BY_EMAIL = void 0;
+exports.SELECT_ROLE_BY_EMAIL = `SELECT * FROM roles WHERE email = ?`;
+exports.INSERT_USER = `INSERT INTO roles (username, password, role, email, branch) VALUES (?, ?, ?, ?, ?)`;
+exports.SELECT_USER_BY_EMAIL = `SELECT * FROM roles WHERE email = ?`;
+exports.SELECT_BRANCH_NAME_BY_ID = `SELECT name FROM branch WHERE branchid = ?`;
+exports.SELECT_ROLE_BY_EMPLOYEE_ID = `SELECT role FROM roles WHERE employeeid = ?`;
+exports.SELECT_USER_BY_EMPLOYEE_ID = `SELECT * FROM roles WHERE employeeid = ?`;
+exports.SELECT_USERDATA_BY_EMPLOYEE_ID = `SELECT * FROM roles WHERE employeeid = ?`;

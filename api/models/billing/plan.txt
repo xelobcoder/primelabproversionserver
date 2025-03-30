@@ -1,0 +1,31 @@
+TEST ASCENSION FIELD 
+
+
+
+
+BILLING FIELD
+     1. billingid
+     2. patientid
+     3. paidAmount
+     4. amountPayable
+     5. discount
+     6. organization
+     7. clinician
+     8. refererType
+     9. branchid
+     10. clientstatus
+     11. testcost 
+     12. employeeid
+
+SERVICE FIELD
+     1. billingid
+     2. testid
+     3. cost 
+     4. amountPaid
+     5. PaymentMode
+     6. discount
+     7. isPaymentComplete
+     8. amountDue
+     9. month
+    10.year
+     11.day

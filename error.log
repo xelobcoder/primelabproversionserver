@@ -1,0 +1,1395 @@
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error"}
+{"code":"ETIMEDOUT","errorno":"ETIMEDOUT","fatal":true,"level":"error","syscall":"connect"}
+{"code":"ER_PARSE_ERROR","errno":1064,"index":0,"level":"error","sql":"SELECT * FROM roles WHERE EMPLOYEEID = ?","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 1","sqlState":"42000"}
+{"code":"ER_PARSE_ERROR","errno":1064,"index":0,"level":"error","sql":"SELECT field, value,billingid,created_on AS date FROM resultliver_function_test  WHERE billingid IN () ORDER BY id DESC","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ORDER BY id DESC' at line 1","sqlState":"42000"}
+{"code":"ER_PARSE_ERROR","errno":1064,"index":0,"level":"error","sql":"SELECT field, value,billingid,created_on AS date FROM resultliver_function_test  WHERE billingid IN () ORDER BY id DESC","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ORDER BY id DESC' at line 1","sqlState":"42000"}
+{"level":"error"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"code":"ETIMEDOUT","errorno":"ETIMEDOUT","fatal":true,"level":"error","syscall":"connect"}
+{"level":"error"}
+{"level":"error"}
+{"code":"ETIMEDOUT","errorno":"ETIMEDOUT","fatal":true,"level":"error","syscall":"connect"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"code":"ETIMEDOUT","errorno":"ETIMEDOUT","fatal":true,"level":"error","syscall":"connect"}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"code":"ETIMEDOUT","errorno":"ETIMEDOUT","fatal":true,"level":"error","syscall":"connect"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"code":"ETIMEDOUT","errorno":"ETIMEDOUT","fatal":true,"level":"error","syscall":"connect"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"ER_NO_SUCH_TABLE","errno":1146,"index":0,"level":"error","sql":"\n          SELECT * FROM rejectedsampledisputelog AS lg INNER JOIN roles AS rl ON rl.employeeid = lg.disputedby\n            WHERE ascensionid = 398 ORDER BY lg.id","sqlMessage":"Table 'limsdb.rejectedsampledisputelog' doesn't exist","sqlState":"42S02"}
+{"code":"ER_NO_SUCH_TABLE","errno":1146,"index":0,"level":"error","sql":"\n          SELECT * FROM rejectedsampledisputelog AS lg INNER JOIN roles AS rl ON rl.employeeid = lg.disputedby\n            WHERE ascensionid = 400 ORDER BY lg.id","sqlMessage":"Table 'limsdb.rejectedsampledisputelog' doesn't exist","sqlState":"42S02"}
+{"code":"ER_BAD_FIELD_ERROR","errno":1054,"index":0,"level":"error","sql":"\n        SELECT id,patientid,\n        CASE \n          WHEN middlename IS NULL THEN CONCAT(firstname, ' ', lastname)\n          ELSE CONCAT(firstname, ' ', middlename, ' ', lastname)\n        END AS fullname,\n        mobile_number AS contact,\n        date, \n        activation_status\n        FROM new_patients\n     WHERE mobile_number =Tiifu AND CURRENT_DATE ORDER BY id DESC\n        LIMIT 10","sqlMessage":"Unknown column 'Tiifu' in 'where clause'","sqlState":"42S22"}
+{"code":"ER_BAD_FIELD_ERROR","errno":1054,"index":0,"level":"error","sql":"\n        SELECT id,patientid,\n        CASE \n          WHEN middlename IS NULL THEN CONCAT(firstname, ' ', lastname)\n          ELSE CONCAT(firstname, ' ', middlename, ' ', lastname)\n        END AS fullname,\n        mobile_number AS contact,\n        date, \n        activation_status\n        FROM new_patients\n     WHERE mobile_number =Tiifu AND CURRENT_DATE ORDER BY id DESC\n        LIMIT 10","sqlMessage":"Unknown column 'Tiifu' in 'where clause'","sqlState":"42S22"}
+{"code":"ER_BAD_FIELD_ERROR","errno":1054,"index":0,"level":"error","sql":"\n        SELECT id,patientid,\n        CASE \n          WHEN middlename IS NULL THEN CONCAT(firstname, ' ', lastname)\n          ELSE CONCAT(firstname, ' ', middlename, ' ', lastname)\n        END AS fullname,\n        mobile_number AS contact,\n        date, \n        activation_status\n        FROM new_patients\n     WHERE mobile_number =tiifu AND CURRENT_DATE ORDER BY id DESC\n        LIMIT 10","sqlMessage":"Unknown column 'tiifu' in 'where clause'","sqlState":"42S22"}
+{"code":"ER_BAD_FIELD_ERROR","errno":1054,"index":0,"level":"error","sql":"\n        SELECT id,patientid,\n        CASE \n          WHEN middlename IS NULL THEN CONCAT(firstname, ' ', lastname)\n          ELSE CONCAT(firstname, ' ', middlename, ' ', lastname)\n        END AS fullname,\n        mobile_number AS contact,\n        date, \n        activation_status\n        FROM new_patients\n     WHERE mobile_number = tiifu AND CURRENT_DATE ORDER BY id DESC\n        LIMIT 10","sqlMessage":"Unknown column 'tiifu' in 'where clause'","sqlState":"42S22"}
+{"code":"ER_BAD_FIELD_ERROR","errno":1054,"index":0,"level":"error","sql":"\n        SELECT id,patientid,\n        CASE \n          WHEN middlename IS NULL THEN CONCAT(firstname, ' ', lastname)\n          ELSE CONCAT(firstname, ' ', middlename, ' ', lastname)\n        END AS fullname,\n        mobile_number AS contact,\n        date, \n        activation_status\n        FROM new_patients\n     WHERE mobile_number = tiifu AND CURRENT_DATE ORDER BY id DESC\n        LIMIT 10","sqlMessage":"Unknown column 'tiifu' in 'where clause'","sqlState":"42S22"}
+{"code":"ER_PARSE_ERROR","errno":1064,"index":0,"level":"error","sql":"\n        SELECT id,patientid,\n        CASE \n          WHEN middlename IS NULL THEN CONCAT(firstname, ' ', lastname)\n          ELSE CONCAT(firstname, ' ', middlename, ' ', lastname)\n        END AS fullname,\n        mobile_number AS contact,\n        date, \n        activation_status\n        FROM new_patients\n     AND CURRENT_DATE ORDER BY id DESC\n        LIMIT 10","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND CURRENT_DATE ORDER BY id DESC\n        LIMIT 10' at line 10","sqlState":"42000"}
+{"code":"ER_PARSE_ERROR","errno":1064,"index":0,"level":"error","sql":"\n        SELECT id,patientid,\n        CASE \n          WHEN middlename IS NULL THEN CONCAT(firstname, ' ', lastname)\n          ELSE CONCAT(firstname, ' ', middlename, ' ', lastname)\n        END AS fullname,\n        mobile_number AS contact,\n        date, \n        activation_status\n        FROM new_patients\n     AND CURRENT_DATE ORDER BY id DESC\n        LIMIT 10","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND CURRENT_DATE ORDER BY id DESC\n        LIMIT 10' at line 10","sqlState":"42000"}
+{"code":"ER_NO_SUCH_TABLE","errno":1146,"index":0,"level":"error","sql":"\n          SELECT * FROM rejectedsampledisputelog AS lg INNER JOIN roles AS rl ON rl.employeeid = lg.disputedby\n            WHERE ascensionid = 400 ORDER BY lg.id","sqlMessage":"Table 'limsdb.rejectedsampledisputelog' doesn't exist","sqlState":"42S02"}
+{"code":"ER_NO_SUCH_TABLE","errno":1146,"index":0,"level":"error","sql":"\n          SELECT * FROM rejectedsampledisputelog AS lg INNER JOIN roles AS rl ON rl.employeeid = lg.disputedby\n            WHERE ascensionid = 400 ORDER BY lg.id","sqlMessage":"Table 'limsdb.rejectedsampledisputelog' doesn't exist","sqlState":"42S02"}
+{"code":"ER_NO_SUCH_TABLE","errno":1146,"index":0,"level":"error","sql":"INSERT INTO rejectedsampledisputelog (ascensionid, disputereason, disputedby, disputedon)\n    VALUES ('400', 'JJKSDFJKAWDJH', 3, '2024-04-17T14:14:08.936Z')","sqlMessage":"Table 'limsdb.rejectedsampledisputelog' doesn't exist","sqlState":"42S02"}
+{"level":"error"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"code":"ER_PARSE_ERROR","errno":1064,"index":0,"level":"error","sql":"SELECT field, value,billingid,created_on AS date FROM resultlipid_profile  WHERE billingid IN () ORDER BY id DESC","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ORDER BY id DESC' at line 1","sqlState":"42000"}
+{"code":"ER_PARSE_ERROR","errno":1064,"index":0,"level":"error","sql":"SELECT field, value,billingid,created_on AS date FROM resultlipid_profile  WHERE billingid IN () ORDER BY id DESC","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ORDER BY id DESC' at line 1","sqlState":"42000"}
+{"code":"ETIMEDOUT","errorno":"ETIMEDOUT","fatal":true,"level":"error","syscall":"connect"}
+{"code":"ETIMEDOUT","errorno":"ETIMEDOUT","fatal":true,"level":"error","syscall":"connect"}
+{"code":"ETIMEDOUT","errorno":"ETIMEDOUT","fatal":true,"level":"error","syscall":"connect"}
+{"code":"ETIMEDOUT","errorno":"ETIMEDOUT","fatal":true,"level":"error","syscall":"connect"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"code":"ETIMEDOUT","errorno":"ETIMEDOUT","fatal":true,"level":"error","syscall":"connect"}
+{"code":"ETIMEDOUT","errorno":"ETIMEDOUT","fatal":true,"level":"error","syscall":"connect"}
+{"code":"PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR","fatal":false,"level":"error"}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error"}
+{"code":"ER_PARSE_ERROR","errno":1064,"index":0,"level":"error","sql":"SELECT * FROM roles WHERE EMAIL = ?","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 1","sqlState":"42000"}
+{"code":"ER_PARSE_ERROR","errno":1064,"index":0,"level":"error","sql":"SELECT * FROM roles WHERE EMAIL = ?","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 1","sqlState":"42000"}
+{"code":"ER_PARSE_ERROR","errno":1064,"index":0,"level":"error","sql":"SELECT * FROM roles WHERE EMAIL = ?","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 1","sqlState":"42000"}
+{"code":"ER_PARSE_ERROR","errno":1064,"index":0,"level":"error","sql":"SELECT * FROM roles WHERE EMAIL = ?","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 1","sqlState":"42000"}
+{"code":"ER_PARSE_ERROR","errno":1064,"index":0,"level":"error","sql":"SELECT * FROM roles WHERE EMAIL = ?","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 1","sqlState":"42000"}
+{"code":"ER_PARSE_ERROR","errno":1064,"index":0,"level":"error","sql":"SELECT * FROM roles WHERE EMAIL = ?","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 1","sqlState":"42000"}
+{"code":"ER_PARSE_ERROR","errno":1064,"index":0,"level":"error","sql":"SELECT * FROM roles WHERE EMAIL = ?","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 1","sqlState":"42000"}
+{"code":"ER_PARSE_ERROR","errno":1064,"index":0,"level":"error","sql":"SELECT * FROM roles WHERE EMAIL = ?","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 1","sqlState":"42000"}
+{"code":"ER_PARSE_ERROR","errno":1064,"index":0,"level":"error","sql":"SELECT * FROM roles WHERE EMAIL = ?","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 1","sqlState":"42000"}
+{"code":"ER_PARSE_ERROR","errno":1064,"index":0,"level":"error","sql":"SELECT * FROM roles WHERE EMAIL = ?","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 1","sqlState":"42000"}
+{"code":"ETIMEDOUT","errorno":"ETIMEDOUT","fatal":true,"level":"error","syscall":"connect"}
+{"code":"ETIMEDOUT","errorno":"ETIMEDOUT","fatal":true,"level":"error","syscall":"connect"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"code":"PROTOCOL_ENQUEUE_HANDSHAKE_TWICE","fatal":false,"level":"error"}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"level":"error","message":{"code":"ECONNREFUSED","fatal":true}}
+{"code":"ETIMEDOUT","errorno":"ETIMEDOUT","fatal":true,"level":"error","syscall":"connect"}
+{"code":"ETIMEDOUT","errorno":"ETIMEDOUT","fatal":true,"level":"error","syscall":"connect"}
+{"code":"ER_PARSE_ERROR","errno":1064,"index":0,"level":"error","sql":"\n      SELECT \n              ta.billingid AS billingid,\n          (SELECT COUNT(*) FROM test_ascension WHERE billingid = ta.billingid AND ready = 'false' AND processing = 'true') AS processing,\n            (SELECT COUNT(*) FROM test_ascension WHERE billingid = ta.billingid AND ready = 'true') AS completed,\n            (SELECT COUNT(*) FROM test_ascension WHERE billingid = ta.billingid AND approvalStatus = 1) AS approved,\n            (SELECT COUNT(*) FROM test_ascension WHERE billingid = ta.billingid AND collection = 'false') AS undrawnsamples,\n            ta.ready,\n            ta.ready_date,\n            b.OUTSTANDING AS outstanding,\n            b.PAID_AMOUNT AS paid_amount,\n            np.PATIENTID AS patientid,\n            COUNT(ta.testid) AS readycount,\n            (SELECT COUNT(*) FROM test_ascension WHERE billingid = ta.billingid) AS testcount,\n          CASE \n            WHEN np.MIDDLENAME IS NULL THEN  CONCAT(np.FIRSTNAME,\" \",np.LASTNAME)\n            WHEN np.MIDDLENAME IS NOT NULL THEN  CONCAT(np.FIRSTNAME, ' ', np.MIDDLENAME, ' ', np.LASTNAME) \n            END AS fullname\n          FROM \n            test_ascension AS ta \n            INNER JOIN billing AS b ON b.BILLINGID = ta.billingid\n            INNER JOIN new_patients AS np ON b.PATIENTID = np.PATIENTID\n            WHERE ta.billingid IS NOT NULLAND np.PATIENTID = 38939399 AND CONCAT(np.FIRSTNAME, ' ', np.MIDDLENAME, ' ', np.LASTNAME) LIKE 38939399 GROUP BY b.billingid ORDER BY b.billingid DESC LIMIT '%tiifu%' OFFSET 10","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULLAND np.PATIENTID = 38939399 AND CONCAT(np.FIRSTNAME, ' ', np.MIDDLENAME, ...' at line 22","sqlState":"42000"}
+{"code":"ER_PARSE_ERROR","errno":1064,"index":0,"level":"error","sql":"SELECT field, value,billingid,created_on AS date FROM resultliver_function_test  WHERE billingid IN () ORDER BY id DESC","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ORDER BY id DESC' at line 1","sqlState":"42000"}
+{"code":"ER_PARSE_ERROR","errno":1064,"index":0,"level":"error","sql":"SELECT field, value,billingid,created_on AS date FROM resultliver_function_test  WHERE billingid IN () ORDER BY id DESC","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ORDER BY id DESC' at line 1","sqlState":"42000"}
+{"code":"ER_PARSE_ERROR","errno":1064,"index":0,"level":"error","sql":"SELECT field, value,billingid,created_on AS date FROM resultliver_function_test  WHERE billingid IN () ORDER BY id DESC","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ORDER BY id DESC' at line 1","sqlState":"42000"}
+{"code":"ER_PARSE_ERROR","errno":1064,"index":0,"level":"error","sql":"SELECT field, value,billingid,created_on AS date FROM resultliver_function_test  WHERE billingid IN () ORDER BY id DESC","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ORDER BY id DESC' at line 1","sqlState":"42000"}
+{"code":"ER_BAD_FIELD_ERROR","errno":1054,"index":0,"level":"error","sql":" SELECT \n                      ns.name as name,\n                      ns.stockid as stockid,\n                      sc.category as categoryname,\n                      ns.consumptionunit as consumptionunit,\n                      ns.purchaseunit as purchaseunit,\n                      ns.quantity as quantity,\n                      ns.date as date,\n                      wc.id as warehouse,\n                      sc.id as category,\n                      sh.id as shelf,\n                      ns.alertlevel as alertlevel,\n                      ns.materialcode as materialcode\n                      FROM generalstocks AS ns INNER JOIN stockcategory AS sc ON sc.id = ns.category\n                      INNER JOIN warehouse AS wc ON ns.warehouse = wc.id\n                      INNER JOIN shelves AS sh ON sh.id = ns.shelf WHERE ns.warehouse = NaN LIMIT 10 OFFSET 0","sqlMessage":"Unknown column 'NaN' in 'where clause'","sqlState":"42S22"}
+{"code":"ER_PARSE_ERROR","errno":1064,"index":0,"level":"error","sql":"\n      SELECT \n              ta.billingid AS billingid,\n          (SELECT COUNT(*) FROM test_ascension WHERE billingid = ta.billingid AND ready = 'false' AND processing = 'true') AS processing,\n            (SELECT COUNT(*) FROM test_ascension WHERE billingid = ta.billingid AND ready = 'true') AS completed,\n            (SELECT COUNT(*) FROM test_ascension WHERE billingid = ta.billingid AND approvalStatus = 1) AS approved,\n            (SELECT COUNT(*) FROM test_ascension WHERE billingid = ta.billingid AND collection = 'false') AS undrawnsamples,\n            ta.ready,\n            ta.ready_date,\n            b.OUTSTANDING AS outstanding,\n            b.PAID_AMOUNT AS paid_amount,\n            np.PATIENTID AS patientid,\n            COUNT(ta.testid) AS readycount,\n            (SELECT COUNT(*) FROM test_ascension WHERE billingid = ta.billingid) AS testcount,\n          CASE \n            WHEN np.MIDDLENAME IS NULL THEN  CONCAT(np.FIRSTNAME,\" \",np.LASTNAME)\n            WHEN np.MIDDLENAME IS NOT NULL THEN  CONCAT(np.FIRSTNAME, ' ', np.MIDDLENAME, ' ', np.LASTNAME) \n            END AS fullname\n          FROM \n            test_ascension AS ta \n            INNER JOIN billing AS b ON b.BILLINGID = ta.billingid\n            INNER JOIN new_patients AS np ON b.PATIENTID = np.PATIENTID\n            WHERE ta.billingid IS NOT NULLAND np.PATIENTID = 2333333 AND CONCAT(np.FIRSTNAME, ' ', np.MIDDLENAME, ' ', np.LASTNAME) LIKE 2333333 GROUP BY b.billingid ORDER BY b.billingid DESC LIMIT '%asana %' OFFSET 10","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULLAND np.PATIENTID = 2333333 AND CONCAT(np.FIRSTNAME, ' ', np.MIDDLENAME, '...' at line 22","sqlState":"42000"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"ER_BAD_FIELD_ERROR","errno":1054,"index":0,"level":"error","sql":"SELECT mobile_number AS mobile FROM new_patients WHERE mobile_number = NaN","sqlMessage":"Unknown column 'NaN' in 'where clause'","sqlState":"42S22"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"ESOCKET","command":"CONN","errno":-4077,"level":"error","syscall":"read"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"code":"ER_PARSE_ERROR","errno":1064,"index":0,"level":"error","sql":" SELECT \n                      ns.name as name,\n                      ns.stockid as stockid,\n                      sc.category as categoryname,\n                      ns.consumptionunit as consumptionunit,\n                      ns.purchaseunit as purchaseunit,\n                      ns.quantity as quantity,\n                      ns.date as date,\n                      wc.id as warehouse,\n                      sc.id as category,\n                      sh.id as shelf,\n                      ns.alertlevel as alertlevel,\n                      ns.materialcode as materialcode\n                      FROM generalstocks AS ns INNER JOIN stockcategory AS sc ON sc.id = ns.category\n                      INNER JOIN warehouse AS wc ON ns.warehouse = wc.id\n                      INNER JOIN shelves AS sh ON sh.id = ns.shelf LIMIT 10 OFFSET -10","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10' at line 16","sqlState":"42000"}
+{"code":"ER_SP_UNDECLARED_VAR","errno":1327,"index":0,"level":"error","sql":" SELECT \n                      ns.name as name,\n                      ns.stockid as stockid,\n                      sc.category as categoryname,\n                      ns.consumptionunit as consumptionunit,\n                      ns.purchaseunit as purchaseunit,\n                      ns.quantity as quantity,\n                      ns.date as date,\n                      wc.id as warehouse,\n                      sc.id as category,\n                      sh.id as shelf,\n                      ns.alertlevel as alertlevel,\n                      ns.materialcode as materialcode\n                      FROM generalstocks AS ns INNER JOIN stockcategory AS sc ON sc.id = ns.category\n                      INNER JOIN warehouse AS wc ON ns.warehouse = wc.id\n                      INNER JOIN shelves AS sh ON sh.id = ns.shelf LIMIT 10 OFFSET NaN","sqlMessage":"Undeclared variable: NaN","sqlState":"42000"}
+{"code":"ER_BAD_FIELD_ERROR","errno":1054,"index":0,"level":"error","sql":"SELECT name from test_panels WHERE id = NaN","sqlMessage":"Unknown column 'NaN' in 'where clause'","sqlState":"42S22"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"code":"ENOENT","errno":-4058,"level":"error","path":"F:\\PROJECTS\\lobnos-server\\dist\\views\\templates\\verifyemail.ejs","syscall":"open"}
+{"code":"ENOENT","errno":-4058,"level":"error","path":"F:\\api\\EmailTemplates\\appointmentsheduleNotice.ejs","syscall":"open"}
+{"level":"error","path":"F:\\PROJECTS\\lobnos-server\\api\\EmailTemplates\\supplierEmailVerification.ejs"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"code":"ER_PARSE_ERROR","errno":1064,"index":0,"level":"error","sql":"UPDATE orders\n              SET received = `0` = 'TRUE', `1` = 344, `2` = '1997-08-10', `3` = 'received', `4` = '1996-10-10', `5` = 'lot56', `6` = 0, `7` = 43, `8` = 10, `9` = 3440, `10` = 50, `11` = 1719860990496, `12` = 7, `13` = 3, `employeeid` = 3,\n                  quantityReceived = ?,\n                  receiveddate = ?,\n                  status = ?,\n                  expirydate = ?,\n                  batchnumber = ?,\n                  balance = ?,\n                  brand = ? ,\n                  price = ?,\n                  totalamount = ? \n              WHERE productordersid = ?\n              AND orderTransactionid = ? \n              AND stockid =?","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?,\n                  receiveddate = ?,\n                  status = ?,\n        ...' at line 3","sqlState":"42000"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"code":"ER_PARSE_ERROR","errno":1064,"index":0,"level":"error","sql":"UPDATE orders\n              SET received = `0` = 'TRUE', `1` = '200', `2` = '2024-07-13', `3` = 'incomplete', `4` = '2024-07-20', `5` = 'lot545', `6` = 6466, `7` = 29, `8` = 10, `9` = 2000, `10` = 55, `11` = 1719967641138, `12` = 4, `13` = 3, `employeeid` = 3,\n                  quantityReceived = ?,\n                  receiveddate = ?,\n                  status = ?,\n                  expirydate = ?,\n                  batchnumber = ?,\n                  balance = ?,\n                  brand = ? ,\n                  price = ?,\n                  totalamount = ? \n              WHERE productordersid = ?\n              AND orderTransactionid = ? \n              AND stockid =?","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?,\n                  receiveddate = ?,\n                  status = ?,\n        ...' at line 3","sqlState":"42000"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"code":"PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR","fatal":false,"level":"error"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"level":"error","message":"Cannot set headers after they are sent to the client"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.gmail.com","level":"error","syscall":"getaddrinfo"}
+{"code":"ER_BAD_FIELD_ERROR","errno":1054,"index":0,"level":"error","sql":"\n        SELECT\n          CASE\n              WHEN p.MIDDLENAME IS NULL THEN CONCAT(p.FIRSTNAME, \" \", p.LASTNAME)\n              ELSE CONCAT(p.FIRSTNAME, \" \", p.MIDDLENAME, \" \", p.LASTNAME)\n          END AS fullname,\n          p.patientid,\n          CONCAT(p.age, \" \", p.agetype) AS age,\n          p.gender,\n          p.mobile_number AS mobilenumber,\n          b.billingid AS billingid,\n        b.billedon AS date,\n        b.clientstatus \n      FROM new_patients AS p\n      INNER JOIN billing AS b ON p.patientid = b.patientid\n      INNER JOIN test_ascension AS ts ON b.billingid = ts.billingid\n      WHERE ts.collection = 'false'\n      GROUP BY b.billingid\n      ORDER BY b.billingid ASC LIMIT 10 OFFSET 0;\n  ","sqlMessage":"Unknown column 'ts.collection' in 'where clause'","sqlState":"42S22"}
+{"code":"ER_BAD_FIELD_ERROR","errno":1054,"index":0,"level":"error","sql":"\n        SELECT\n          CASE\n              WHEN p.MIDDLENAME IS NULL THEN CONCAT(p.FIRSTNAME, \" \", p.LASTNAME)\n              ELSE CONCAT(p.FIRSTNAME, \" \", p.MIDDLENAME, \" \", p.LASTNAME)\n          END AS fullname,\n          p.patientid,\n          CONCAT(p.age, \" \", p.agetype) AS age,\n          p.gender,\n          p.mobile_number AS mobilenumber,\n          b.billingid AS billingid,\n        b.billedon AS date,\n        b.clientstatus \n      FROM new_patients AS p\n      INNER JOIN billing AS b ON p.patientid = b.patientid\n      INNER JOIN test_ascension AS ts ON b.billingid = ts.billingid\n      WHERE ts.collection = 'false'\n      GROUP BY b.billingid\n      ORDER BY b.billingid ASC LIMIT 10 OFFSET 0;\n  ","sqlMessage":"Unknown column 'ts.collection' in 'where clause'","sqlState":"42S22"}
+{"code":"ER_BAD_FIELD_ERROR","errno":1054,"index":0,"level":"error","sql":"\n    SELECT \n           b.billingid,\n            CONCAT(np.age,\" \",np.agetype) AS age,\n            np.MOBILE_NUMBER AS mobileNumber,\n            np.GENDER AS gender,\n            np.EMAIL AS email,\n            ss.rejectionmessage,\n            b.billedon AS date,\n            ss.approvalstatus,\n            ss.sampleMessage,\n            ss.disputedon,\n            ss.ascensionid,\n            ss.disputedby,\n            ss.disputereason,\n            tp.name,\n            ss.testid,\n            ss.samplevalidatedon,\n            ro.username AS validatedBy,\n            ta.collection_date,\n            CASE\n              WHEN np.MIDDLENAME IS NULL THEN CONCAT(np.FIRSTNAME, \" \", np.LASTNAME)\n              ELSE CONCAT(np.FIRSTNAME,\" \", np.MIDDLENAME,\" \",np.LASTNAME)\n            END AS fullname\n          FROM new_patients AS np\n          INNER JOIN billing AS b ON b.patientid = np.patientid\n          INNER JOIN samplestatus AS ss ON ss.billingid = b.billingid\n          INNER JOIN test_ascension AS ta ON ta.id = ss.ascensionid\n          INNER JOIN test_panels AS tp ON tp.id = ss.testid\n          INNER JOIN departments AS d ON d.id = tp.category\n          INNER JOIN roles AS ro ON ro.employeeid = ss.validatedby\n          WHERE ss.approvalstatus = 0 AND ta.collection = 'true' AND d.department <> 'ultrasound' LIMIT 10 OFFSET 0\n    ","sqlMessage":"Unknown column 'ta.collection_date' in 'field list'","sqlState":"42S22"}
+{"code":"ER_BAD_FIELD_ERROR","errno":1054,"index":0,"level":"error","sql":"\n    SELECT \n           b.billingid,\n            CONCAT(np.age,\" \",np.agetype) AS age,\n            np.MOBILE_NUMBER AS mobileNumber,\n            np.GENDER AS gender,\n            np.EMAIL AS email,\n            ss.rejectionmessage,\n            b.billedon AS date,\n            ss.approvalstatus,\n            ss.sampleMessage,\n            ss.disputedon,\n            ss.ascensionid,\n            ss.disputedby,\n            ss.disputereason,\n            tp.name,\n            ss.testid,\n            ss.samplevalidatedon,\n            ro.username AS validatedBy,\n            ta.collection_date,\n            CASE\n              WHEN np.MIDDLENAME IS NULL THEN CONCAT(np.FIRSTNAME, \" \", np.LASTNAME)\n              ELSE CONCAT(np.FIRSTNAME,\" \", np.MIDDLENAME,\" \",np.LASTNAME)\n            END AS fullname\n          FROM new_patients AS np\n          INNER JOIN billing AS b ON b.patientid = np.patientid\n          INNER JOIN samplestatus AS ss ON ss.billingid = b.billingid\n          INNER JOIN test_ascension AS ta ON ta.id = ss.ascensionid\n          INNER JOIN test_panels AS tp ON tp.id = ss.testid\n          INNER JOIN departments AS d ON d.id = tp.category\n          INNER JOIN roles AS ro ON ro.employeeid = ss.validatedby\n          WHERE ss.approvalstatus = 0 AND ta.collection = 'true' AND d.department <> 'ultrasound' LIMIT 10 OFFSET 0\n    ","sqlMessage":"Unknown column 'ta.collection_date' in 'field list'","sqlState":"42S22"}
+{"code":"ER_BAD_FIELD_ERROR","errno":1054,"index":0,"level":"error","sql":"\n    SELECT \n      np.PATIENTID AS patientid,\n      CONCAT(np.FIRSTNAME,' ',np.MIDDLENAME,' ',np.LASTNAME) AS fullname,\n      np.EMAIL AS email,\n      CONCAT(0,np.MOBILE_NUMBER) AS mobileNumber,\n      b.BILLINGID AS billingid,\n      b.OUTSTANDING AS outstanding,\n      b.DISCOUNT AS discount,\n      b.PAID_AMOUNT AS paid_amount,\n      b.PAYABLE AS payable,\n      DATE(b.billedon) as date\n    FROM new_patients AS np\n    INNER JOIN billing as b ON np.patientid = b.patientid\n   ORDER BY b.billingid DESC LIMIT 10 OFFSET 0 ","sqlMessage":"Unknown column 'b.PAID_AMOUNT' in 'field list'","sqlState":"42S22"}
+{"code":"ER_BAD_FIELD_ERROR","errno":1054,"index":0,"level":"error","sql":"\n    SELECT \n      np.PATIENTID AS patientid,\n      CONCAT(np.FIRSTNAME,' ',np.MIDDLENAME,' ',np.LASTNAME) AS fullname,\n      np.EMAIL AS email,\n      CONCAT(0,np.MOBILE_NUMBER) AS mobileNumber,\n      b.BILLINGID AS billingid,\n      b.OUTSTANDING AS outstanding,\n      b.DISCOUNT AS discount,\n      b.PAID_AMOUNT AS paid_amount,\n      b.PAYABLE AS payable,\n      DATE(b.billedon) as date\n    FROM new_patients AS np\n    INNER JOIN billing as b ON np.patientid = b.patientid\n   ORDER BY b.billingid DESC LIMIT 10 OFFSET 0 ","sqlMessage":"Unknown column 'b.PAID_AMOUNT' in 'field list'","sqlState":"42S22"}
+{"code":"ER_BAD_FIELD_ERROR","errno":1054,"index":0,"level":"error","sql":"\n    SELECT \n      np.PATIENTID AS patientid,\n      CONCAT(np.FIRSTNAME,' ',np.MIDDLENAME,' ',np.LASTNAME) AS fullname,\n      np.EMAIL AS email,\n      CONCAT(0,np.MOBILE_NUMBER) AS mobileNumber,\n      b.BILLINGID AS billingid,\n      b.OUTSTANDING AS outstanding,\n      b.DISCOUNT AS discount,\n      b.PAID_AMOUNT AS paid_amount,\n      b.PAYABLE AS payable,\n      DATE(b.billedon) as date\n    FROM new_patients AS np\n    INNER JOIN billing as b ON np.patientid = b.patientid\n   ORDER BY b.billingid DESC LIMIT 10 OFFSET 0 ","sqlMessage":"Unknown column 'b.PAID_AMOUNT' in 'field list'","sqlState":"42S22"}
+{"code":"ER_BAD_FIELD_ERROR","errno":1054,"index":0,"level":"error","sql":"\n    SELECT \n      np.PATIENTID AS patientid,\n      CONCAT(np.FIRSTNAME,' ',np.MIDDLENAME,' ',np.LASTNAME) AS fullname,\n      np.EMAIL AS email,\n      CONCAT(0,np.MOBILE_NUMBER) AS mobileNumber,\n      b.BILLINGID AS billingid,\n      b.OUTSTANDING AS outstanding,\n      b.DISCOUNT AS discount,\n      b.PAID_AMOUNT AS paid_amount,\n      b.PAYABLE AS payable,\n      DATE(b.billedon) as date\n    FROM new_patients AS np\n    INNER JOIN billing as b ON np.patientid = b.patientid\n   ORDER BY b.billingid DESC LIMIT 10 OFFSET 0 ","sqlMessage":"Unknown column 'b.PAID_AMOUNT' in 'field list'","sqlState":"42S22"}

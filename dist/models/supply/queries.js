@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.GET_COMMODITIES = exports.INSERT_COMMODITY = exports.GET_PENDING_ORDERS = exports.GETSUPPLIER_BY_CONTACT_OR_EMAIL = exports.UPDATESUPPLIERQUERY = exports.GETSUPPLIERSQUERY = exports.NEWSUPPLIERQUERY = void 0;
+exports.NEWSUPPLIERQUERY = `INSERT INTO supplier (name,address,email,contactperson,region,phonenumber) VALUES (?,?,?,?,?,?)`;
+exports.GETSUPPLIERSQUERY = `SELECT * FROM supplier ORDER BY supplierid DESC LIMIT ? OFFSET ?`;
+exports.UPDATESUPPLIERQUERY = `UPDATE supplier SET name = ?, address = ?, region = ?, contactperson = ?, email = ?, phonenumber = ? WHERE supplierid = ?`;
+exports.GETSUPPLIER_BY_CONTACT_OR_EMAIL = `SELECT * FROM supplier WHERE phonenumber = ? OR email = ?`;
+exports.GET_PENDING_ORDERS = `SELECT * FROM orders WHERE receiveddate IS NULL AND supplierid = ?`;
+exports.INSERT_COMMODITY = `INSERT INTO commodity (COMMODITY, CATEGORY) VALUES (?,?)`;
+exports.GET_COMMODITIES = `SELECT * FROM commodity GROUP BY comid LIMIT ? OFFSET ?`;

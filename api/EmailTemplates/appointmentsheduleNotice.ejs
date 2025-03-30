@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Appointment Reminder</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .content {
+            padding: 20px;
+            color: #333333;
+        }
+
+        .content h2 {
+            color: #007bff;
+        }
+
+        .footer {
+            background-color: #f4f4f4;
+            color: #777777;
+            text-align: center;
+            padding: 10px;
+            font-size: 12px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+        .button.whatsapp {
+            background-color: #25D366;
+        }
+
+        .details {
+            margin: 10px 0;
+        }
+
+        .details strong {
+            display: inline-block;
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            Appointment Reminder
+        </div>
+        <div class="content">
+            <h2>Hello John Doe,</h2>
+            <p>This is a reminder for your upcoming appointment.</p>
+            <div class="details">
+                <p><strong>Title:</strong> Health Check-Up</p>
+                <p><strong>Date:</strong> June 15, 2024</p>
+                <p><strong>Time:</strong> 10:00 AM</p>
+                <p><strong>Duration:</strong> 1 Hour</p>
+                <p><strong>Purpose:</strong> Annual Health Examination</p>
+                <p><strong>Location:</strong> 123 Health St, Wellness City</p>
+                <p><strong>Consultant:</strong> Dr. Smith</p>
+            </div>
+            <p>Please be prepared and arrive on time.</p>
+            <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Health+Check-Up&dates=20240615T100000Z/20240615T110000Z&details=Annual+Health+Examination&location=123+Health+St,+Wellness+City"
+                class="button">Add to Calendar</a>
+            <button class="button" onclick="sendSMS()">Send SMS Reminder</button>
+            <a href="https://api.whatsapp.com/send?phone=0249434803&text=Reminder%3A%20Health%20Check-Up%20on%20June%2015%2C%202024%20at%2010%3A00%20AM.%20Location%3A%20123%20Health%20St%2C%20Wellness%20City.%20Consultant%3A%20Dr.%20Smith."
+                class="button whatsapp">Share on WhatsApp</a>
+        </div>
+        <div class="footer">
+            &copy; 2024 Wellness Clinic. All rights reserved.
+        </div>
+    </div>
+
+    <!-- <script>
+        function sendSMS() {
+            const phoneNumber = prompt("Please enter your phone number:");
+            if (phoneNumber) {
+                fetch('/send-sms', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        phoneNumber: phoneNumber,
+                        message: 'Reminder: Health Check-Up on June 15, 2024 at 10:00 AM. Location: 123 Health St, Wellness City. Consultant: Dr. Smith.'
+                    }),
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        alert('SMS sent successfully!');
+                    })
+                    .catch((error) => {
+                        console.error('Error:', error);
+                    });
+            }
+        }
+    </script> -->
+</body>
+
+</html>

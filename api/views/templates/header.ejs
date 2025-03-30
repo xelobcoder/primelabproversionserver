@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Message from ...</title>
+  <style>
+    .container {
+      margin: 0% 6%;
+      padding: 10px;
+      width: 80%;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+
+    .card {
+      border: 1px solid lightgray;
+    }
+
+    .btn-orange {
+      background-color: orange;
+      color: white;
+      border: 2px solid orange;
+    }
+    
+
+    .btn {
+      padding: 10px 10px;
+      margin: auto;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 14px;
+      text-transform: capitalize;
+    }
+.d-flex {
+  display: flex;
+}
+
+.mt-2{
+  margin-top: 20px;
+}
+
+.mb-2{
+  margin-bottom: 20px;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+.justify-center{
+  justify-content: center;
+}
+
+
+    .card>.card-header {
+      border-bottom: 1px solid lightgray;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #0000ee;
+      color: white;
+      font-weight: 600;
+      text-transform: capitalize;
+    }
+
+    p::first-letter {
+      text-transform: uppercase;
+    }
+
+    .card>.card-body {
+      display: block;
+      background-color: #fbe9e7;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      padding-bottom: 30px;
+    }
+
+    .btn:is(:hover, :focus, :active) {
+      outline: 4px solid lightblue;
+      transition: 50ms all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    h4 {
+      text-transform: uppercase;
+    }
+
+    .billing-summary{
+      width: 100% !important;
+      border-bottom: 1px solid lightgray;
+      text-transform: capitalize;
+      font-weight: 500;
+    }
+
+    .billing-summary .diff {
+      background-color: blueviolet;
+      color: #f8f8f8;
+    }
+
+
+    #custom-table {
+      width: 100%;
+      padding: 0;
+      overflow: auto;
+      max-height: max-content;
+      margin: 0 auto;
+      border-collapse: collapse;
+    }
+
+    #custom-table thead,
+    #custom-table>tbody>tr>td,
+    #custom-table>thead>tr>th,
+    #custom-table>tfoot tr td,
+    #custom-table tbody {
+      font-size: smaller;
+      max-width: 200px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      white-space: nowrap;
+      border: 1px solid slategrey;
+      border-collapse: collapse;
+    }
+
+    #custom-table thead tr {
+      width: 100%;
+      background-color: whitesmoke;
+      border-bottom: 5px solid black;
+    }
+
+    #custom-table thead tr th {
+      font-size: 13px;
+      font-weight: 400;
+      color: inherit;
+      font-weight: 600;
+      padding: 10px;
+      text-transform: uppercase;
+      text-align: left;
+
+    }
+
+    #custom-table tbody tr td {
+      font-size: 14px !important;
+      font-weight: 400;
+      color: black;
+      text-transform: lowercase !important;
+      text-overflow: ellipsis;
+      padding: 10px !important;
+      /* min-width: 150px; */
+    }
+
+    #custom-table tbody tr td::first-letter {
+      text-transform: uppercase;
+    }
+
+    #custom-table tbody tr:hover,
+    #custom-table thead tr:focus {
+      background-color: #00224f21;
+      cursor: pointer;
+    }
+
+    .cellClass {
+      font-weight: 500 !important;
+      color: #00224f;
+      padding-left: 20px;
+      font-size: 15px;
+    }
+
+    #custom-table tbody tr:nth-child(odd) {
+      background-color: #f8f8f8;
+    }
+
+    #custom-table tbody tr:nth-child(even) {
+      background-color: #fff;
+    }
+  </style>
